@@ -37,23 +37,23 @@ end
 
 function bola.colisao(x, y)
   if posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
-     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 100 and posicaoY < 100 + 50
+     posicaoX > 120 and posicaoX < 120 + 100 and posicaoY > 80 and posicaoY < 80 + 50 or
+     posicaoX > 230 and posicaoX < 230 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
+     posicaoX > 340 and posicaoX < 340 + 100 and posicaoY > 80 and posicaoY < 80 + 50 or
+     posicaoX > 450 and posicaoX < 450 + 100 and posicaoY > 100 and posicaoY < 100 + 50 or
+     posicaoX > 560 and posicaoX < 560 + 100 and posicaoY > 80 and posicaoY < 80 + 50 or
+     posicaoX > 120 and posicaoX < 120 + 100 and posicaoY > 250 and posicaoY < 250 + 50 or
+     posicaoX > 230 and posicaoX < 230 + 100 and posicaoY > 270 and posicaoY < 270 + 50 or
+     posicaoX > 340 and posicaoX < 340 + 100 and posicaoY > 250 and posicaoY < 250 + 50 or
+     posicaoX > 450 and posicaoX < 450 + 100 and posicaoY > 270 and posicaoY < 270 + 50 or
+     posicaoX > 560 and posicaoX < 560 + 100 and posicaoY > 250 and posicaoY < 250 + 50 or
+     posicaoX > 670 and posicaoX < 670 + 100 and posicaoY > 270 and posicaoY < 270 + 50 or
+     posicaoX > 10 and posicaoX < 10 + 100 and posicaoY > 440 and posicaoY < 440 + 50 or
+     posicaoX > 120 and posicaoX < 120 + 100 and posicaoY > 420 and posicaoY < 420 + 50 or
+     posicaoX > 230 and posicaoX < 230 + 100 and posicaoY > 430 and posicaoY < 430 + 50 or
+     posicaoX > 340 and posicaoX < 340 + 100 and posicaoY > 420 and posicaoY < 420 + 50 or
+     posicaoX > 450 and posicaoX < 450 + 100 and posicaoY > 440 and posicaoY < 440 + 50 or
+     posicaoX > 560 and posicaoX < 560 + 100 and posicaoY > 420 and posicaoY < 420 + 50
   then
     colisao = true
     posicaoX = 50
