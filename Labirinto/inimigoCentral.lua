@@ -1,11 +1,13 @@
 inimigoCentral = {}
 
+local name = require "bola"
+
 function inimigoCentral.load()
   posXInimigo = 350
   posYInimigo = 250
   alturaInimigo = 200
   larguraInimigo = 100
-  movimento = true
+  contabiliza = 250
 end
 
 function inimigoCentral.desenha()
@@ -13,16 +15,11 @@ function inimigoCentral.desenha()
 end
 
 function inimigoCentral.movimento()
-  if movimento then
-    for i=1,10 do
-      posYInimigo = posYInimigo - (i / 50)
-    end
-  movimento = false
-
-  elseif not movimento then
-    for i=1,10 do
-      posYInimigo = posYInimigo + (i / 50)
-    end
-  movimento = true
+  if contabiliza < 400 then
+    posYInimigo = posYInimigo + 1
+    contabiliza = contabiliza + 1
+  elseif contabiliza > 10 then
+    posYInimigo = posYInimigo - 1
+    contabiliza = contabiliza - 1
   end
 end

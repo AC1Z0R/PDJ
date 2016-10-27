@@ -30,9 +30,7 @@ function bola.desenha()
 end
 
 function bola.vento()
-  for i=1,10 do
-    posicaoX = posicaoX - (i / 200)
-  end
+    posicaoX = posicaoX - 1
 end
 
 function bola.colisao(x, y)
